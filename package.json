@@ -37,11 +37,12 @@
   "license": "BSD-3-Clause",
   "type": "module",
   "exports": "./lib/index.js",
+  "main": "./lib/index.js",
   "files": [
     "lib/*.js"
   ],
   "dependencies": {
-    "@digitalbazaar/lru-memoize": "github:digitalbazaar/lru-memoize#convert-to-module"
+    "@digitalbazaar/lru-memoize": "github:lemoustachiste/lru-memoize#convert-to-module"
   },
   "devDependencies": {
     "c8": "^7.11.2",
